@@ -46,11 +46,11 @@ movie_info *temp;
 movie_info *temp2;
 
 	temp2=new movie_info;
- 	cout<<"\n Enter a movie name: ";
+ 	cout<<"\n Please enter movie name: ";
  	cin>>temp2->movie_name;
- 	cout<<" Enter the movie id: ";
+ 	cout<<" Please enter the movie id: ";
  	cin>>temp2->movie_id;
- 	cout<<" Enter year of the movie produced: ";
+ 	cout<<" Please enter year of the movie produced: ";
  	cin>>temp2->movie_year;
      temp2->next=NULL;
 
@@ -78,11 +78,11 @@ for(int i=1;i<pos;i++)
 pre=cur;
 cur=cur->next;
 }
- 	cout<<"\n Enter a movie name: ";
+ 	cout<<"\n Please enter a movie name: ";
  	cin>>temp->movie_name;
- 	cout<<" Enter the movie id: ";
+ 	cout<<" Please enter the movie id: ";
  	cin>>temp->movie_id;
- 	cout<<" Enter year of the movie produced: ";
+ 	cout<<" Please enter year of the movie produced: ";
  	cin>>temp->movie_year;
 pre->next=temp;
 temp->next=cur;
@@ -93,7 +93,7 @@ temp->next=cur;
 system("CLS");
    int  count=0;
  	if(head==NULL){
- 		cout<<"there is no movie.\n";
+ 		cout<<"Unfourtunately, no movie was found :(\n";
 	 }else {
 	 	current=head;
 	 	cout<<"\n"<<"No.\tmovie name\tmovie id\tmovie year";
@@ -149,7 +149,7 @@ system("CLS");
   }
 }
 void movie_info::DeleteMovieAtSpecificPosition(int z){
-    system("CLS");
+    system("cls");
 movie_info *temp;
 temp=head;
 if(head!=NULL){
@@ -161,10 +161,10 @@ for(int i=1; i<z; i++){
 }
 pre->next=current->next;
 delete current;
-cout<<"data is deleted successfully.\n";
+cout<<"Data was deleted successfully.\n";
 }
 else{
-    cout<<"\n no data to delete\n";
+    cout<<"\n There seems to be noo data to delete\n";
     }
 }
 
@@ -177,11 +177,11 @@ int main(){
 	    cout<<"********************************************";
 		cout<<"\n Press 1 to add movie at the start";
 		cout<<"\n Press 2 to add movie at the end";
-		cout<<"\n Press 3 to add movie at the some place";
-		cout<<"\n Press 4 to remove movie from the start";
-		cout<<"\n Press 5 to remove movie at the end";
-		cout<<"\n Press 6 to Delete movie At Some Position";
-		cout<<"\n Press 7 to known about group members ";
+		cout<<"\n Press 3 to add movie at a specific position";
+		cout<<"\n Press 4 to delete movie from the start";
+		cout<<"\n Press 5 to delete movie at the end";
+		cout<<"\n Press 6 to delete movie from a specific position";
+		cout<<"\n Press 7 to see team members";
         cout<<"\n Press 0 to exit";
 
 		cout<<"\n\n Please select a task: ";
@@ -200,7 +200,7 @@ int main(){
 			case'3':
 				system("color 5e");
 				int loc1;
-				cout<<"\n enter position ";
+				cout<<"\n Please enter position: ";
 				cin>>loc1;
 				M.AddMovieAtSpecificPosition(loc1);
 				M.PrintMovie();
@@ -218,7 +218,7 @@ int main(){
 			case'6':
 				system("color 5e");
 				int loc;
-					cout<<" enter position: ";
+					cout<<" Please enter position: ";
 				cin>>loc;
 				M.DeleteMovieAtSpecificPosition(loc);
 				M.PrintMovie();
