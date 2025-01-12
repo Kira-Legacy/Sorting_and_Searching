@@ -1,5 +1,5 @@
 #include<iostream>
-#include<string.h >
+#include<string.h>
 using namespace std;
 //************************************************************************************************************************
 struct student{
@@ -158,8 +158,8 @@ int main(){
 		   system("color 5e");
            system("cls");
 		Top:
-         cout<<"\n\n***************************************************************"<<endl;
-         cout<<"********************** PLEASE SELECT TASKS ********************"<<endl;
+         cout<<"\n***************************************************************"<<endl;
+         cout<<"******************** PLEASE SELECT TASKS **********************"<<endl;
          cout<<"\t 1. Please enter number #1 to Enter data"<<endl;
          cout<<"\t 2. Please enter number #2 to Display data"<<endl;
          cout<<"\t 3. Please enter number #3 to Bubble sort by ID"<<endl;
@@ -168,12 +168,13 @@ int main(){
          cout<<"\t 6. Please enter number #6 to Linear Search by AGE"<<endl;
          cout<<"\t 7. Please enter number #7 to Binary Search by NAME"<<endl;
          cout<<"\t 8. Please enter number #8 to Delete "<<endl;
-         cout<<"\t 9. About Us /GROUP NAME/"<<endl;
+         cout<<"\t 9. About Us /Team Members/"<<endl;
          cout<<"\t 0. Exit"<<endl;
          cout<<"***************************************************************"<<endl;
+		 cout<<"Please enter task you would like to perform"<<endl;
 		 cin>>ch;
         switch(ch){
-            case '1': system("cls"); system("color 4e");
+            case '1': system("cls"); system("color a");
                 cout<<"\n************************************************************";
                 cout<<"\n************************************************************\n";
                 cout<<"\tPlease enter the size of data: ";
