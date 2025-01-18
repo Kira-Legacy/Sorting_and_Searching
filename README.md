@@ -22,6 +22,10 @@ When user presses "1", the program asks to set book information. Which is insert
 -> The main purpose of using these searching algorithms is to have organized data input and that of searching is accessing data in need without having to go through the entire data. 
 -> The time it takes to sort a given amount of data varies from one sorting algorithm to another. Also the time it takes to access a data by searching varies from one searching algorithm to another. The time it take to sort or search data is called Time Complexity. All the concepts on this program are well taught on the course Data Structure and Algorithms (DSA).
 
+:) You can find the output of the program on the image below.
+
+![HTML Image](https://github.com/Kira-Legacy/Image_Repo/blob/main/Book%20Information.png)
+
 # Movie_Info.cpp -> Sorting of Movie information using Linked List
 The program contains an implementation of linked list, a concept in data structure and algorithm (DSA). A linked list is a linear data structure that consists of a sequence of nodes, each containing two fields:   
 Data: The actual data stored in the node and Next: A pointer (link) to the next node in the sequence.   
@@ -36,6 +40,10 @@ Here is the general overview of the program:-
 
 -> Users can also press "7" to know team members of the project and "0" to exit the program.
 Linked list is also a fundamental concept in the course Data Structre and Algorithms (DSA).
+
+:) You can find the output of the program on the image below.
+
+![HTML Image](https://github.com/Kira-Legacy/Image_Repo/blob/main/Movie%20Information.png)
 
 # Student_Info.cpp -> Sorting and searching of Student information
 Sorting and searching of Student information using simple sorting and searching algorithms. The program contains an implementation of simple sorting and searching algorithms, concepts in data structure and algorithm (DSA). For sorting Bubble sort, Insertion sort and Selection sort were implmented and for searching Linear and Binary search were used. 
@@ -59,6 +67,10 @@ Here is the general overview of the program:-
 -> The main purpose of using these searching algorithms is to have organized data input and that of searching is accessing data in need without having to go through the entire data. -> The time it takes to sort a given amount of data varies from one sorting algorithm to another. Also the time it takes to access a data by searching varies from one searching algorithm to another. The time it take to sort or search data is called Time Complexity. All the concepts on this program are well taught on the course Data Structure and Algorithms (DSA).
 
 N.B: This project elaborates on the use of Simple sorting and searching algorithms after sorting and searching of book information program.
+
+:) You can find the output of the program on the image below.
+
+![HTML Image](https://github.com/Kira-Legacy/Image_Repo/blob/main/Student%20Information.png)
 
 
 
