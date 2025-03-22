@@ -26,7 +26,7 @@ When user presses "1", the program asks to set book information. Which is insert
 
 ![HTML Image](https://github.com/Kira-Legacy/Image_Repo/blob/main/Book%20Information.png)
 
-# Movie_Info.cpp -> Sorting of Movie information using Linked List
+# Movie_Info.cpp -> Sorting of Movie Information using Linked List
 The program contains an implementation of linked list, a concept in data structure and algorithm (DSA). A linked list is a linear data structure that consists of a sequence of nodes, each containing two fields:   
 Data: The actual data stored in the node and Next: A pointer (link) to the next node in the sequence.   
 This structure allows for efficient insertion and deletion of elements at any position in the list, but accessing a specific element requires traversing the list from the beginning. 
