@@ -45,7 +45,7 @@ Linked list is also a fundamental concept in the course Data Structre and Algori
 
 ![HTML Image](https://github.com/Kira-Legacy/Image_Repo/blob/main/Movie%20Information.png)
 
-# Student_Info.cpp -> Sorting and searching of Student information
+# Student_Info.cpp -> Sorting and Searching of Student information
 Sorting and searching of Student information using simple sorting and searching algorithms. The program contains an implementation of simple sorting and searching algorithms, concepts in data structure and algorithm (DSA). For sorting Bubble sort, Insertion sort and Selection sort were implmented and for searching Linear and Binary search were used. 
 
 Here is the general overview of the program:- 
