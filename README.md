@@ -9,15 +9,11 @@ Here is the general overview of the program:-
 
 When user presses "1", the program asks to set book information. Which is inserting Author name, Book title and Book Id. The program accepts only a number as Book ISBN. After the user inserts book information. They can perform the following operations:-  
 
--> View the book information inserted by pressing "2", 
-
--> Perform:- sort by Book Id by pressing "3" (using bubble sort) 
-
--> Sort by Book title by pressing "4" (using selection sort), sort by Author name by pressing "5" (using insertion sort)
-
--> Search by book Id by pressing "6" (linear searching) and search by author name (using binary searching). 
-
--> Users can also press "8" know the team of the project and "0" to exit the program.
+- View the book information inserted by pressing "2", 
+- Perform:- sort by Book Id by pressing "3" (using bubble sort) 
+- Sort by Book title by pressing "4" (using selection sort), sort by Author name by pressing "5" (using insertion sort)
+- Search by book Id by pressing "6" (linear searching) and search by author name (using binary searching). 
+- Users can also press "8" know the team of the project and "0" to exit the program.
 
 -> The main purpose of using these searching algorithms is to have organized data input and that of searching is accessing data in need without having to go through the entire data. 
 -> The time it takes to sort a given amount of data varies from one sorting algorithm to another. Also the time it takes to access a data by searching varies from one searching algorithm to another. The time it take to sort or search data is called Time Complexity. All the concepts on this program are well taught on the course Data Structure and Algorithms (DSA).
@@ -34,11 +30,9 @@ In the program, a user inputs information about movies and can use linked list t
 
 Here is the general overview of the program:- 
 
--> By pressing "1", "2" and "3", user can add movie information at the start, at the end or at a specific place respectively. 
-
--> User also can delete movie information from the start, from the end or at a specific position by pressing "4", "5" and "6" respectively.  
-
--> Users can also press "7" to know team members of the project and "0" to exit the program.
+- By pressing "1", "2" and "3", user can add movie information at the start, at the end or at a specific place respectively. 
+- User also can delete movie information from the start, from the end or at a specific position by pressing "4", "5" and "6" respectively.  
+- Users can also press "7" to know team members of the project and "0" to exit the program.
 Linked list is also a fundamental concept in the course Data Structre and Algorithms (DSA).
 
 :) You can find the output of the program on the image below.
@@ -52,17 +46,12 @@ Here is the general overview of the program:-
 
 -> When user presses "1", the program asks to enter student information after asking the amount of data recieved. Which is inserting Student Id, Student Name and Age. The program accepts only a number as Student Id. After the user inserts Student information. They can perform the following operations:- 
 
--> View the data inserted by pressing "2"
-
--> Perform:- sort by Student Id by pressing "3" (using bubble sort) 
-
--> Sort by Student Name by pressing "4" (using selection sort) 
-
--> Sort by Age by pressing "5" (using insertion sort), search by Age by pressing "6" (linear searching) and search by Student name (using binary searching). 
-
--> User can also delete the data of Student after inserting Student Id by pressing "8"  
-
--> Users can press "9" to know team members of the project and "0" to exit the program.
+- View the data inserted by pressing "2"
+- Perform:- sort by Student Id by pressing "3" (using bubble sort) 
+- Sort by Student Name by pressing "4" (using selection sort) 
+- Sort by Age by pressing "5" (using insertion sort), search by Age by pressing "6" (linear searching) and search by Student name (using binary searching). 
+- User can also delete the data of Student after inserting Student Id by pressing "8"  
+- Users can press "9" to know team members of the project and "0" to exit the program.
 
 -> The main purpose of using these searching algorithms is to have organized data input and that of searching is accessing data in need without having to go through the entire data. -> The time it takes to sort a given amount of data varies from one sorting algorithm to another. Also the time it takes to access a data by searching varies from one searching algorithm to another. The time it take to sort or search data is called Time Complexity. All the concepts on this program are well taught on the course Data Structure and Algorithms (DSA).
 
