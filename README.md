@@ -1,10 +1,11 @@
 # Sorting_and_Searching
 Implementation of simple sorting and searching algorithms using C++.
-Sorting algorithms arrange a collection of items (like numbers or words) in a specific order, usually in ascending or descending order. Searching algorithms find the position of a specific value within a collection of items.
-The algortihms used for sorting the programs are Bubble sort, Insertion sort, Selection sort and Linked List. Also the algorithms used for searching are Linear search and Binary search.
-# Book_Info.cpp -> Sorting and Searching of Book Information
+- Sorting algorithms arrange a collection of items (like numbers or words) in a specific order, usually in ascending or descending order. Searching algorithms find the position of a specific value within a collection of items.
+- The algortihms used for sorting the programs are Bubble sort, Insertion sort, Selection sort and Linked List. Also the algorithms used for searching are Linear search and Binary search.
+
+## Book_Info.cpp -> Sorting and Searching of Book Information
 Program: Sorting and searching of book information using simple sorting and searching algorithms. 
-The program contains an implementation of simple sorting and searching algorithms, concepts in data structure and algorithm (DSA). For sorting purposes the program used bubble sort, selection sort and insertion sort and for searching linear and binary search were used. Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until no swaps are needed, indicating that the list is sorted. Selection sort is a simple sorting algorithm that divides the input list into two parts: a sorted part at the beginning and an unsorted part at the end. Insertion sort is a simple sorting algorithm that works similar to how you might sort a hand of playing cards. It builds a sorted array one item at a time. Linear search, also known as sequential search, is a straightforward searching algorithm that examines each element in a list or array sequentially to find a target element. Binary search is a highly efficient searching algorithm that leverages the fact that the input list or array must be sorted. It works by repeatedly dividing the search interval in half.
+- The program contains an implementation of simple sorting and searching algorithms, concepts in data structure and algorithm (DSA). For sorting purposes the program used bubble sort, selection sort and insertion sort and for searching linear and binary search were used. Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until no swaps are needed, indicating that the list is sorted. Selection sort is a simple sorting algorithm that divides the input list into two parts: a sorted part at the beginning and an unsorted part at the end. Insertion sort is a simple sorting algorithm that works similar to how you might sort a hand of playing cards. It builds a sorted array one item at a time. Linear search, also known as sequential search, is a straightforward searching algorithm that examines each element in a list or array sequentially to find a target element. Binary search is a highly efficient searching algorithm that leverages the fact that the input list or array must be sorted. It works by repeatedly dividing the search interval in half.
 Here is the general overview of the program:- 
 
 When user presses "1", the program asks to set book information. Which is inserting Author name, Book title and Book Id. The program accepts only a number as Book ISBN. After the user inserts book information. They can perform the following operations:-  
@@ -22,11 +23,11 @@ When user presses "1", the program asks to set book information. Which is insert
 
 ![HTML Image](https://github.com/Kira-Legacy/Image_Repo/blob/main/Book%20Information.png)
 
-# Movie_Info.cpp -> Sorting of Movie Information using Linked List
-The program contains an implementation of linked list, a concept in data structure and algorithm (DSA). A linked list is a linear data structure that consists of a sequence of nodes, each containing two fields:   
-Data: The actual data stored in the node and Next: A pointer (link) to the next node in the sequence.   
-This structure allows for efficient insertion and deletion of elements at any position in the list, but accessing a specific element requires traversing the list from the beginning. 
-In the program, a user inputs information about movies and can use linked list to sort the information inserted. 
+## Movie_Info.cpp -> Sorting of Movie Information using Linked List
+- The program contains an implementation of linked list, a concept in data structure and algorithm (DSA). A linked list is a linear data structure that consists of a sequence of nodes, each containing two fields:   
+- Data: The actual data stored in the node and Next: A pointer (link) to the next node in the sequence.   
+- This structure allows for efficient insertion and deletion of elements at any position in the list, but accessing a specific element requires traversing the list from the beginning. 
+- In the program, a user inputs information about movies and can use linked list to sort the information inserted. 
 
 Here is the general overview of the program:- 
 
@@ -39,8 +40,8 @@ Linked list is also a fundamental concept in the course Data Structre and Algori
 
 ![HTML Image](https://github.com/Kira-Legacy/Image_Repo/blob/main/Movie%20Information.png)
 
-# Student_Info.cpp -> Sorting and Searching of Student information
-Sorting and searching of Student information using simple sorting and searching algorithms. The program contains an implementation of simple sorting and searching algorithms, concepts in data structure and algorithm (DSA). For sorting Bubble sort, Insertion sort and Selection sort were implmented and for searching Linear and Binary search were used. 
+## Student_Info.cpp -> Sorting and Searching of Student information
+- Sorting and searching of Student information using simple sorting and searching algorithms. The program contains an implementation of simple sorting and searching algorithms, concepts in data structure and algorithm (DSA). For sorting Bubble sort, Insertion sort and Selection sort were implmented and for searching Linear and Binary search were used. 
 
 Here is the general overview of the program:- 
 
